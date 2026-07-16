@@ -1,0 +1,167 @@
+.prayer-hero{
+
+height:65vh;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("prayer time.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+color:white;
+
+}
+
+.prayer-hero h1{
+
+font-size:55px;
+margin-bottom:20px;
+
+}
+
+.prayer-hero p{
+
+font-size:20px;
+margin-bottom:30px;
+
+}
+
+.btn{
+
+padding:15px 35px;
+background:#FFD54F;
+text-decoration:none;
+color:#000;
+border-radius:5px;
+
+}
+
+.times{
+
+width:90%;
+max-width:900px;
+
+margin:80px auto;
+
+}
+
+.times h2{
+
+text-align:center;
+margin-bottom:30px;
+color:#0c6b3d;
+
+}
+
+.table{
+
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.table div{
+
+display:flex;
+justify-content:space-between;
+padding:18px 25px;
+border-bottom:1px solid #eee;
+
+}
+
+.importance{
+
+width:90%;
+margin:80px auto;
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+gap:40px;
+align-items:center;
+
+}
+
+.importance img{
+
+width:100%;
+border-radius:10px;
+
+}
+
+.cards{
+
+width:90%;
+margin:80px auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:10px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.hadith{
+
+width:90%;
+max-width:900px;
+
+margin:80px auto;
+
+background:#0c6b3d;
+
+color:white;
+
+padding:40px;
+
+border-radius:10px;
+
+text-align:center;
+
+}
+
+footer{
+
+margin-top:60px;
+
+background:#0c6b3d;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+}
